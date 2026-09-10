@@ -200,4 +200,9 @@ h4{
     #article_twist q{
         font-size: 0.9rem;
     }
+
+    .twist_continue{
+        margin: 1rem 2rem;
+        padding: 0.7rem;
+    }
 }
