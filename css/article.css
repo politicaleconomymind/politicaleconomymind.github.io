@@ -169,4 +169,31 @@ h4{
     #article_cover{
         max-width: 100%;
     }
+
+    #article_quotes{
+        line-height: 1.1;
+    }
+
+    #article_twist{
+        padding: 0.5rem 1rem;
+    }
+
+    #article_twist h3{
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media (max-width:500px) {
+    #article_quotes img{
+        max-height: auto;
+    }
+
+    #article_twist{
+        padding: 0.5rem;
+    }
+
+    #article_twist q{
+        font-size: 0.9rem;
+    }
 }
