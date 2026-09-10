@@ -522,6 +522,10 @@ footer ul li a img{
 }
 
 @media (max-width: 900px) {
+    #logo_img{
+        margin-right: 1rem;
+    }
+
     .category-filters{
         display: none;
     }
@@ -575,7 +579,7 @@ footer ul li a img{
 
 @media (max-width: 500px) {
     #logo_img{
-        max-height: 35px;
+        /* max-height: 35px; */
     }
 
     .container {
