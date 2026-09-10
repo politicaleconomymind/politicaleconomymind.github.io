@@ -185,6 +185,10 @@ h4{
 }
 
 @media (max-width:500px) {
+    #article_quotes{
+        min-height: 20dvh;
+    }
+
     #article_quotes img{
         max-height: auto;
     }
