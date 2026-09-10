@@ -358,6 +358,7 @@ body {
     color: var(--primary);
     font-weight: 600;
     text-decoration: none;
+    font-size: larger;
 }
 
 .read-more:hover {
