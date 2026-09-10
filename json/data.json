@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Impact of Global Trade Tariffs on Emerging Markets",
+    "date": "2026-09-06",
+    "category": "Macroeconomics",
+    "excerpt": "An analysis of how recent shift in protectionist policies is reshaping export-driven economies.",
+    "content": "Full article text goes here. You can even include HTML tags like <p> and <strong> inside this string to format your paragraphs.",
+    "thumbnail": "1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Resource Allocation in Post-Conflict Economies",
+    "date": "2026-08-22",
+    "category": "Political Economy",
+    "excerpt": "Examining the political hurdles of distributing foreign aid and rebuilding infrastructure.",
+    "content": "Full article text goes here...",
+    "thumbnail": "2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Resource Allocation in Post-Conflict Economies",
+    "date": "2026-09-02",
+    "category": "Political Economy",
+    "excerpt": "Examining the political hurdles of distributing foreign aid and rebuilding infrastructure.",
+    "content": "Full article text goes here...",
+    "thumbnail": "2.jpg"
+  }
+]

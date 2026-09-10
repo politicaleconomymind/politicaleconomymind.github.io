@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Political Economy Mind">
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+    <title>Political Economy Analysis</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/article.css"> -->
+    <!-- jQuery -->
+    <script src="./js/jquery4.js"></script>
+</head>
+<body>
+
+    <div id="loader">
+        <p></p>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./" class="logo-flex">
+                <img src="./icons/favicon.png" id="logo_img" alt="The Political Economy Mind">
+            </a>
+            
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Analysis</button>
+                <button class="filter-btn" data-filter="politics">Demestic|GeoPolitics</button>
+                <button class="filter-btn" data-filter="economics">Macro|GeoEconomics</button>
+            </div>
+
+            <div class="search-wrapper">
+                <input type="text" id="article-search" class="search-input" placeholder="Search . . .">
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">  
+            <h1 class="logo">The Political Economy <span class="subtitle">Mind</span></h1>
+            <h2>Intersections of Policy and Capital</h2>
+            <p>Independent research and analysis on global political economy, trade, and statecraft.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Featured Article -->
+        <div id="featured-article"></div>
+        
+        <!-- Older Articles Grid -->
+        <div id="article-feed" class="article-grid"></div>
+        
+        <!-- Pagination Controls -->
+        <div id="pagination-controls" class="pagination-wrapper"></div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
