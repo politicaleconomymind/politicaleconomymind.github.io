@@ -110,13 +110,13 @@ body {
     max-height: 70px;
 }
 
-.logo {
+/* .logo {
     font-size: 1.25rem;
     font-weight: 800;
     margin: 0;
     letter-spacing: -0.025em;
     color: var(--primary);
-}
+} */
 
 .nav-links {
     list-style: none;
@@ -211,7 +211,7 @@ body {
     margin-top: 4rem;
 }
 
-h1, .hero h1 {
+.logo {
     font-size: x-large;
     /* line-height: 1.2; */
     color: var(--primary);
@@ -220,7 +220,7 @@ h1, .hero h1 {
     text-transform: uppercase;
 }
 
-h1 .subtitle {
+.subtitle {
     font-weight: 400;
     color: var(--accent);
 }
@@ -523,7 +523,7 @@ footer ul li a img{
 
 @media (max-width: 900px) {
     #logo_img{
-        margin-right: 1rem;
+        margin-right: 0.5rem;
     }
 
     .category-filters{
@@ -586,7 +586,7 @@ footer ul li a img{
         margin-top: 1rem;
     }
 
-    h1, .hero h1 {
+    .logo {
         font-size: 1.2rem;
     }
 
