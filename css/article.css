@@ -150,3 +150,23 @@ h4{
     box-shadow: 1px 1px 2px black;
     background-color: white;
 }
+
+/*  */
+
+@media (max-width:1030px) {
+    #article_cover{
+        max-width: 75%;
+    }
+}
+
+@media (max-width:900px) {
+    #article_cover{
+        max-width: 80%;
+    }
+}
+
+@media (max-width:650px) {
+    #article_cover{
+        max-width: 100%;
+    }
+}
