@@ -500,7 +500,7 @@ footer ul li a{
 }
 
 footer ul li a img{
-    height: 20px;
+    max-height: 20px;
     vertical-align: middle;
 }
 
@@ -571,10 +571,6 @@ footer ul li a img{
     footer ul{
         font-size: 0.7rem;
     }
-
-    footer ul li a img{
-        height: 18px;
-    }
 }
 
 @media (max-width: 500px) {
@@ -601,10 +597,6 @@ footer ul li a img{
 
     .hero p {
         font-size: 0.6rem;
-    }
-
-    footer ul li a img{
-        height: 15px;
     }
 }
 
