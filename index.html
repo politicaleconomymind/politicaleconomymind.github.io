@@ -23,13 +23,19 @@
                 <img src="./icons/favicon.png" id="logo_img" alt="The Political Economy Mind">
             </a>
             
-            <div class="category-filters">
+            <div id="desktop" class="category-filters">
                 <button class="filter-btn active" data-filter="all">All Analysis</button>
-                <button class="filter-btn" data-filter="politics">Demestic|GeoPolitics</button>
-                <button class="filter-btn" data-filter="economics">Macro|GeoEconomics</button>
+                <button class="filter-btn" data-filter="politics">Demestic|Geo-Politics</button>
+                <button class="filter-btn" data-filter="economics">Macro|Geo-Economics</button>
             </div>
 
-            <div class="search-wrapper">
+            <div id="mobile" class="category-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="politics">Politics</button>
+                <button class="filter-btn" data-filter="economics">Economy</button>
+            </div>
+
+            <div id="search_nav_container" class="search-wrapper">
                 <input type="text" id="article-search" class="search-input" placeholder="Search . . .">
             </div>
         </div>
