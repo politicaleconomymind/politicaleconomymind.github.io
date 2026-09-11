@@ -145,10 +145,7 @@ h4{
 #suggestion_list img{
     width: 100%;
     max-height: 100px;
-    /* object-fit: fill; */
-    padding: 2px;
-    box-shadow: 1px 1px 2px black;
-    background-color: white;
+    background: transparent;
 }
 
 /*  */
