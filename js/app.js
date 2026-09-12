@@ -164,9 +164,9 @@ let footDate = new Date()
 $("footer").html(`
     <ul>
         <li>
-            <a href=""> <img src="./icons/youtube.svg" alt="8484"> </a>
-            <a href=""> <img src="./icons/facebook.svg" alt="8484"> </a>
-            <a href=""> <img src="./icons/email.svg" alt="8484"> </a>
+            <a href="https://youtube.com/@politicaleconomymind"> <img src="./icons/youtube.svg" alt="8484"> </a>
+            <a href="https://facebook.com/profile.php?id=61593936197218"> <img src="./icons/facebook.svg" alt="8484"> </a>
+            <a href="mailto:tonyagbatajnr@gmail.com"> <img src="./icons/email.svg" alt="8484"> </a>
         </li>
         <li>&copy;${footDate.getFullYear()}</li>
     </ul>    
