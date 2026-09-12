@@ -43,6 +43,7 @@ body {
     color: var(--text-main);
     margin: 0;
     line-height: 1.7;
+    min-height: 100dvh;
 }
 
 #loader{
