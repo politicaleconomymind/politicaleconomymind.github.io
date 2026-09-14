@@ -45,6 +45,19 @@
 
 /*  */
 @media (max-width:650px) {
+    #about_container{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #about_main_contents{
+        margin: 1rem 0rem 2rem 0rem;
+    }
+
+    .article-header{
+        margin: 1rem 0rem;
+    }
+
     #about_img_page{
         margin: 0rem 0.8rem 0.2rem 0rem;
         width: 50%;
