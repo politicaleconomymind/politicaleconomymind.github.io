@@ -168,6 +168,7 @@ $("footer").html(`
             <a href="https://facebook.com/profile.php?id=61593936197218"> <img src="./icons/facebook.svg" alt="8484"> </a>
             <a href="mailto:tonyagbatajnr@gmail.com"> <img src="./icons/email.svg" alt="8484"> </a>
         </li>
+        <li> <a href="./about.html">About</a> </li>
         <li>&copy;${footDate.getFullYear()}</li>
     </ul>    
 `)
