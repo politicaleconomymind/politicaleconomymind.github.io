@@ -38,6 +38,10 @@
     text-align: justify;
 }
 
+#about_main_contents ul li{
+    margin-left: 2rem;
+}
+
 #about_main_contents ul li strong{
     display: inline-block;
     margin-top: 0.8rem;
